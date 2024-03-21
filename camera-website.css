@@ -1,0 +1,340 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+} */
+
+.navvv {
+    position: absolute;
+    right: 20px;
+    z-index: 100;
+    top: 16px;
+}
+
+.navvv ul li:hover {
+    cursor: pointer;
+    background-color: #f0b016;
+    border-radius: 4px;
+    color: white;
+}
+
+.banner-button .contact-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #f0b016;
+}
+
+.banner-button .about-us:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.navbar-item {
+    font-size: 18px;
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 60px;
+    color: gray;
+    align-items: center;
+}
+
+.search-icon {
+    font-size: 20px;
+    color: rgb(88, 88, 88);
+}
+
+.hero-left {
+    height: 100vh;
+    background-image: url(./asset\ 29.jpeg);
+    position: relative;
+}
+
+.hero-leftimage {
+    position: absolute;
+    top: 50vh;
+    left: 110px;
+}
+
+.landing {
+    position: relative;
+    filter: drop-shadow(1px 2px 10px lightgray);
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(./asset\ 27.jpeg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+}
+
+.banner-content {
+    position: absolute;
+    top: 200px;
+}
+
+.banner-head h1 {
+    font-size: 52px;
+    font-weight: bold;
+
+}
+
+.banner-para p {
+    font-size: 18px;
+    color: grey;
+}
+
+.banner-button button {
+    width: 140px;
+    font-size: 18px;
+}
+
+.image-container {
+    display: flex;
+    position: absolute;
+    right: 80px;
+    bottom: 30px;
+    gap: 16px;
+}
+
+.row.second {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.col-7.cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-box {
+    width: 298px;
+    height: 50px;
+    background-color: rgb(238, 238, 238);
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 80px;
+}
+
+.cont-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+hr:not([size]) {
+    margin: 0 180px;
+    height: 2px;
+}
+
+.read-button {
+    height: 40px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-layer {
+    margin: 40px 0;
+}
+
+.third-heading {
+    text-align: center;
+}
+
+.row.img-rowe {
+    margin-right: 0px !important;
+}
+
+.third-img {
+    width: 502px;
+    padding-right: 0;
+}
+
+.full-image {
+    height: 546px;
+    background-image: url("asset 34.jpeg");
+}
+
+.text {
+    color: white;
+}
+
+.img-tex {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.img-box2 {
+    margin-right: 16px;
+    display: flex;
+}
+
+.img-box2 img {
+    width: 100%;
+}
+
+.img-box2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-box2-text p {
+    margin: 0;
+}
+
+.detail-box {
+    display: flex;
+}
+
+.forth-box {
+    text-align: center;
+}
+
+.container-box4 {
+    width: 667px;
+    margin: auto;
+    padding: 32px;
+}
+
+.forth-layer {
+    margin: 80px 0;
+}
+
+.detailbox4-heading {
+    color: rgb(230, 223, 19);
+    text-decoration: underline;
+}
+
+.forth-heading {
+    text-align: center;
+}
+
+.fifth-layer {
+    margin: 100px 0;
+    text-align: center;
+    padding: 0 65px;
+}
+
+.fifth-image-left {
+    background-image: url(./asset\ 16.jpeg);
+    height: 340px;
+}
+
+.fifth-image-right {
+    background-image: url(./asset\ 17.jpeg);
+    height: 340px;
+}
+
+.image-box {
+    position: relative;
+}
+
+.image-date {
+    color: rgb(230, 223, 19);
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    top: 290px;
+    left: 16px;
+}
+
+.sixth-layer {
+    background-image: url(./asset\ 37.jpeg);
+    height: 780px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading6 {
+    color: white;
+    position: absolute;
+    left: 208px;
+    top: 100px;
+}
+
+.img-container1 {
+    width: 555px;
+    height: 443px;
+    position: relative;
+}
+
+.filll input {
+    width: 520px;
+    height: 42px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    border: 0;
+}
+
+input {
+    padding-left: 16px;
+}
+
+.filll button {
+    background-color: #f0b016;
+    width: 130px;
+    height: 44px;
+    border-radius: 22px;
+    border: 0;
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    padding: 60px 0;
+}
+
+.seven-layer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one {
+    width: 260px;
+    color: white;
+}
+
+.one ul li:hover {
+    cursor: pointer;
+    color: #f0b016;
+}
+
+.one p {
+    color: white;
+}
+
+.one .office {
+    color: yellow;
+}
+
+.one .unorder {
+    list-style: none;
+}
+
+.lower {
+    background-color: #f0b016;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media screen and (max-width:640px) {
+    .navvv {
+        background-color: blue;
+    }
+}
