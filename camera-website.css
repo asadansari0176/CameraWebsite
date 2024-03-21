@@ -162,7 +162,7 @@ hr:not([size]) {
 
 .full-image {
     height: 546px;
-    background-image: url("./image/asset 34.jpeg");
+    background-image: url("./image/asset\ 34.jpeg");
 }
 
 .text {
