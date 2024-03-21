@@ -48,7 +48,7 @@
 
 .hero-left {
     height: 100vh;
-    background-image: url(./asset\ 29.jpeg);
+    background-image: url(./image/asset\ 29.jpeg);
     position: relative;
 }
 
@@ -65,7 +65,7 @@
 
 .hero {
     height: 100vh;
-    background-image: url(./asset\ 27.jpeg);
+    background-image: url(./image/asset\ 27.jpeg);
     background-size: auto;
     background-repeat: no-repeat;
     background-position: right;
@@ -162,7 +162,7 @@ hr:not([size]) {
 
 .full-image {
     height: 546px;
-    background-image: url("asset 34.jpeg");
+    background-image: url("./image/asset 34.jpeg");
 }
 
 .text {
@@ -229,12 +229,12 @@ hr:not([size]) {
 }
 
 .fifth-image-left {
-    background-image: url(./asset\ 16.jpeg);
+    background-image: url(./image/asset\ 16.jpeg);
     height: 340px;
 }
 
 .fifth-image-right {
-    background-image: url(./asset\ 17.jpeg);
+    background-image: url(./image/asset\ 17.jpeg);
     height: 340px;
 }
 
